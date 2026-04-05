@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MathLibrary">
+      <UniqueIdentifier>{8aab54ce-244c-4945-9c5d-c03eee1a497e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MathLibrary\Vector3.h">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLibrary\Vector4.h">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLibrary\Matrix3.h">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLibrary\Matrix4.h">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\brick_tileset\brick_tileset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\bullet\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\bullet\bullet_explosion_sheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\bullet\shoot_exposion_sheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\mous\mous_hull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\mous\mous_turret.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\t34\t34_hull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\t34\t34_turret.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\tiger\tiger_hull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tank_TopDown_Asset_By_Lesik\tiger\tiger_turret.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
