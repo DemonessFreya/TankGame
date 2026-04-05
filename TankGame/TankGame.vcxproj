@@ -178,9 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\MathLibrary\Matrix3.h" />
-    <ClInclude Include="..\MathLibrary\Matrix4.h" />
     <ClInclude Include="..\MathLibrary\Vector3.h" />
-    <ClInclude Include="..\MathLibrary\Vector4.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Tank_TopDown_Asset_By_Lesik\brick_tileset\brick_tileset.png" />

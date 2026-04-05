@@ -26,13 +26,7 @@
     <ClInclude Include="..\MathLibrary\Vector3.h">
       <Filter>MathLibrary</Filter>
     </ClInclude>
-    <ClInclude Include="..\MathLibrary\Vector4.h">
-      <Filter>MathLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="..\MathLibrary\Matrix3.h">
-      <Filter>MathLibrary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\MathLibrary\Matrix4.h">
       <Filter>MathLibrary</Filter>
     </ClInclude>
   </ItemGroup>
